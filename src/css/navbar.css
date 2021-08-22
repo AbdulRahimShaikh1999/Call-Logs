@@ -1,0 +1,18 @@
+header ul {
+	display: flex;
+	list-style: none;
+}
+
+header ul > li {
+	padding: 5px;
+}
+
+header ul > li > a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+header ul > li > a.active {
+	border-bottom: 3px solid crimson;
+}

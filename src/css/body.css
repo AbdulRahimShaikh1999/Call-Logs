@@ -1,0 +1,67 @@
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  background: #233142;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+
+main {
+  padding: 20px 10px;
+  height: 70vh;
+  overflow: scroll;
+  position: relative;
+}
+
+button {
+  border: 1px solid #2ac420;
+  outline: none;
+  background-color: #2ac420;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: transparent;
+  color: #333;
+}
+.message {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  padding: 20px;
+  background: #5ca95c;
+  color: #fff;
+  z-index: 99;
+  border-radius: 6px;
+}
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  outline: none;
+  color: gray;
+}
+input:focus {
+  border-color: #5ca95c;
+}

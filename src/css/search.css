@@ -1,0 +1,12 @@
+.searchOuter {
+  position: relative;
+}
+.searchOuter > svg {
+  position: absolute;
+  top: 8px;
+  font-size: 16px;
+  left: 10px;
+}
+.searchOuter > input {
+  padding-left: 30px;
+}
